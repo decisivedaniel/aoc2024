@@ -17,5 +17,5 @@ fn main() {
 
     left.sort();
     right.sort();
-
+    println!("Hello, world!");
 }
