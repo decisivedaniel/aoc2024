@@ -31,7 +31,7 @@ fn main() {
     let mut sum = 0;
     let mut count = 0;
     while count < left.len() {
-        sum += (left[count] * right.get(&left[count]).unwrap_or(0_)).abs();
+        sum += (left[count] * right.get(&left[count]).unwrap_or(&0)).abs();
         count += 1;
     }
     
